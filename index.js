@@ -10,11 +10,7 @@ function createMultiplier(multiplier) {
 
 var doubler = createMultiplier(2)
 
-function doubler() {}
-
 var tripler = createMultiplier(3)
-
-function tripler() {}
 
 function multiplier(a, b) {return a * b}
 
