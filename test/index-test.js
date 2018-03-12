@@ -47,7 +47,7 @@ describe('index', function() {
       expect(doubler(5)).toEqual(10);
     });
   });
-
+  
   describe('Multiplier functions created with `createMultiplierBonus`', function () {
     it('should have a doubler function', function () {
       expect(doubler).toExist();
